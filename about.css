@@ -1,0 +1,155 @@
+.top_header {
+  gap: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 40px; /* Increase padding to prevent overflow */
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+.main_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+
+  .link_image_cont {
+    gap: 50px;
+    float: left;
+    display: flex;
+    justify-content: space-around; /* or space-between, center, etc. */
+    align-items: center;
+  }
+
+  body {
+    background-color: #bc1823;
+    margin-top: 60px;
+    background-image: url('img/TV - 3.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+
+/*
+  body {
+    background-color: #2e2c2b;
+    margin-top: 60px;
+    background-image: url('img/Vector 1.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+  }*/
+
+  .info_container {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    gap: 20px; /* Space between the containers */
+  }
+  
+
+  .book_now_container {
+    height: 50px;
+    width: fit-content;
+    display: flex;
+    justify-content: space-evenly; /* Push items to the sides */
+    align-items: center;
+    background: #ffaa00;
+    border-radius: 100px; 
+    padding: 5px;
+    gap: 20px;
+  }
+
+  .info_box {
+    height: fit-content;
+    background: #f8f5f4; 
+    border-radius: 20px; 
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+
+  .price_cont{
+    justify-content: space-evenly;
+    display: flex;
+  }
+
+
+  .book_img{
+    margin-top: 5px;
+    width: 40px;
+  }
+  .fb_logo {
+    width: 50px;
+    padding-left: 40px;
+  }
+  .insta_logo {
+    width: 50px;
+  }
+  .tiktok_logo {
+    width: 50px;
+  }
+  .Rage_Logo {
+    width: 300px;
+    padding-left: 20px;
+  }
+
+  .header_a{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+    text-decoration: none;
+  }
+  h2{
+    font-family: 'Poppins';
+  }
+  p{
+    font-family: 'Poppins';
+  }
+
+
+.Smash_Price_title{
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #cc331e;
+  font-family: 'Poppins';
+}
+  .Smash_text{
+    margin: 0px;
+    padding: 0px;
+    font-size: 45px;
+    color: #bc1823;
+    font-family: 'Poppins';
+  }
+
+  .text_about{
+    text-align: justify; 
+    width: 700px; 
+    font-size: 20px; 
+    padding-right: 10px;
+    color: white;
+    font-size: 15px;
+  }
+  .Address_text{
+    text-align: center;
+    color: white;
+  }
+  .Rage_Text {
+    padding-left: 30px;
+    color: white;
+    font-size: 100px;
+    font-family: 'Poppins';
+    text-shadow: -15px 15px 10px rgba(0, 0, 0, 0.5); /* Shadow to the bottom-left */
+  }
